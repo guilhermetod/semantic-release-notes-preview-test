@@ -78500,7 +78500,6 @@ async function getBaseConfig() {
     const result = await cosmiconfig_1('release').search();
     const config = result?.config ?? {};
     const { branches = [], plugins = [] } = config;
-		console.log([...branches, process.env.GITHUB_HEAD_REF])
     return {
         branches: [...branches, process.env.GITHUB_HEAD_REF],
         plugins: [
@@ -78517,7 +78516,7 @@ async function dryRunRelease() {
         ci: false,
         dryRun: true,
     }, {
-        env: { ...process.env, GITHUB_ACTIONS: false },
+        env: { ...process.env, GITHUB_ACTIONS: '' },
     });
 }
 async function outputPreview() {
