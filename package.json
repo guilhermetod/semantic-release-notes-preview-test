@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/guilhermetod/semantic-release-notes-preview.git"
+    "url": "git+https://github.com/guilhermetod/semantic-release-notes-preview-test.git"
   },
   "license": "MIT",
   "author": "Guilherme Tod <guilhermetod@gmail.com>",
