@@ -40,7 +40,7 @@ jobs:
       - name: Enable auto merge
         uses: peter-evans/enable-pull-request-automerge@v1
         with:
-          token: ${{ secrets.GH_TOKEN }}
+          token: ${{ secrets.PAT }}
           pull-request-number: ${{ github.event.number }}
       - name: Auto approve pull request
         uses: hmarr/auto-approve-action@v2
