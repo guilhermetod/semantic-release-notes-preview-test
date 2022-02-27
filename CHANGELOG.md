@@ -1,3 +1,10 @@
+## [1.6.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.5.0...v1.6.0) (2022-02-27)
+
+
+### Features
+
+* test with skip CI ([5e841ba](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/5e841babf5ad9d58f1d08ad271e08d4393d0f5d6))
+
 ## [1.5.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.4.1...v1.5.0) (2022-02-27)
 
 
