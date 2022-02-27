@@ -1,7 +1,7 @@
 const { commitConvention } = require('./tools/utils/commit-convention');
 
 const releaseRules = commitConvention.map(({ type, release }) => ({ type, release }));
-const types = commitConvention.map(({ type, section }) => ({ type, section, hidden: false }));
+const types = commitConvention.map(({ type, section }) => ({ type: type.toLowerCase(), section, hidden: false }));
 
 module.exports = {
   branches: ['main'],
