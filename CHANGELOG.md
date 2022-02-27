@@ -1,3 +1,10 @@
+## [1.3.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.2.0...v1.3.0) (2022-02-27)
+
+
+### Features
+
+* test full release ([61da974](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/61da97488fa1805f2a0a3a4be196d74637c17e2b))
+
 ## [1.2.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.1.0...v1.2.0) (2022-02-27)
 
 
