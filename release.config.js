@@ -1,12 +1,12 @@
-const { releaseRules } = require('./tools/utils/release-rules');
+const { commitConvention } = require('./tools/utils/commit-convention');
 
 module.exports = {
   branches: ['main'],
   plugins: [
-    ['@semantic-release/commit-analyzer', { preset: 'conventionalcommits', releaseRules }],
+    ['@semantic-release/commit-analyzer', { preset: 'conventionalcommits', commitConvention }],
     ['@semantic-release/release-notes-generator', { preset: 'conventionalcommits' }],
-    ['@semantic-release/npm', { npmPublish: false }],
-    ['@semantic-release/git'],
+    '@semantic-release/npm',
+    ['@semantic-release/git', {message: 'chore(release): ${nextRelease.version} \n\n${nextRelease.notes}'}],
     '@semantic-release/github',
   ],
 };
