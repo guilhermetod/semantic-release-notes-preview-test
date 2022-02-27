@@ -9,6 +9,7 @@ debug.log
 npm-debug.log
 
 # System Files
+.DS_Store
 Thumbs.db
 
 # test reports
