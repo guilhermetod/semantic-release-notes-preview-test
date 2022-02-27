@@ -28,3 +28,10 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Create sync pull request
+        id: create-sync-pr
+        uses: tretuna/sync-branches@1.4.0
+        with:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          FROM_BRANCH: 'main'
+          TO_BRANCH: 'devel'
