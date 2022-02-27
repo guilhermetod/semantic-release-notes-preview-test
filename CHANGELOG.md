@@ -1,3 +1,10 @@
+## [1.9.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.8.0...v1.9.0) (2022-02-27)
+
+
+### Features
+
+* ci done ([3c1078b](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/3c1078b0db7e1cbbd4f322e6770ca54f2fc57f7f))
+
 ## [1.8.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.7.0...v1.8.0) (2022-02-27)
 
 
