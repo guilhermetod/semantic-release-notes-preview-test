@@ -27,6 +27,7 @@ module.exports = {
   ignorePatterns: [
     ...gitIgnorePatterns,
     'dist',
+    'index.js',
   ],
   overrides: [
     // Javascript
