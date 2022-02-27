@@ -35,6 +35,16 @@ jobs:
         id: create-sync-pr
         uses: tretuna/sync-branches@1.4.0
         with:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FROM_BRANCH: 'main'
           TO_BRANCH: 'develop'
+      - name: Enable auto merge
+        uses: peter-evans/enable-pull-request-automerge@v1
+        with:
+          token: ${{ secrets.PAT }}
+          pull-request-number: ${{ steps.create-sync-pr.outputs.PULL_REQUEST_NUMBER }}
+      - name: Auto approve pull request
+        uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ steps.create-sync-pr.outputs.PULL_REQUEST_NUMBER }}
