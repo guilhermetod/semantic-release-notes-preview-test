@@ -34,4 +34,4 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.PAT }}
           FROM_BRANCH: 'main'
-          TO_BRANCH: 'devel'
+          TO_BRANCH: 'develop'

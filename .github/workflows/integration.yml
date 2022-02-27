@@ -1,8 +1,6 @@
 name: Pull request
 
-on: 
-  pull_request:
-    branches: [main, devel]
+on: pull_request
 
 jobs: 
   draft_release:
@@ -33,7 +31,7 @@ jobs:
             ${{ steps.build-release-notes.outputs.releaseNotes }}
 
   auto_review_and_merge:
-    if: github.head_ref == 'main' && github.base_ref == 'devel'
+    if: github.head_ref == 'main' && github.base_ref == 'develop'
     runs-on: ubuntu-latest
     name: Auto review and merge
     steps:
