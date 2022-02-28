@@ -1,3 +1,10 @@
+### [1.10.2](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.10.1...v1.10.2) (2022-02-28)
+
+
+### Bug fixes
+
+* content comparison ([7794e67](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/7794e67ae1fadedc255439533687f2bc490e69f9))
+
 ### [1.10.1](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.10.0...v1.10.1) (2022-02-28)
 
 
