@@ -1,3 +1,59 @@
+### [1.10.2](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.10.1...v1.10.2) (2022-02-28)
+
+
+### Bug fixes
+
+* content comparison ([7794e67](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/7794e67ae1fadedc255439533687f2bc490e69f9))
+
+### [1.10.1](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.10.0...v1.10.1) (2022-02-28)
+
+
+### Bug fixes
+
+* sync PR token ([43799d0](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/43799d0f48b7509980e476e39f0e405f7912189d))
+
+## [1.10.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.9.0...v1.10.0) (2022-02-28)
+
+
+### Features
+
+* ci done ([4323181](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/43231815e68b4e5c5a1f57224aa3cb45bb577a15))
+
+## [1.9.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.8.0...v1.9.0) (2022-02-27)
+
+
+### Features
+
+* ci done ([3c1078b](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/3c1078b0db7e1cbbd4f322e6770ca54f2fc57f7f))
+
+## [1.8.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.7.0...v1.8.0) (2022-02-27)
+
+
+### Features
+
+* ci done ([c707ee4](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/c707ee4d7bfb54298a96e2c3c0eb9a27c9a5fa48))
+
+## [1.7.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.6.0...v1.7.0) (2022-02-27)
+
+
+### Features
+
+* test with skip CI ([bdf4258](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/bdf4258d0ec33293b23452ef8cc23771d388938b))
+
+## [1.6.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.5.0...v1.6.0) (2022-02-27)
+
+
+### Features
+
+* test with skip CI ([5e841ba](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/5e841babf5ad9d58f1d08ad271e08d4393d0f5d6))
+
+## [1.5.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.4.1...v1.5.0) (2022-02-27)
+
+
+### Features
+
+* test with skip CI ([dde3c11](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/dde3c11761a9018e9d85a82eaed80710816e6fa1))
+
 ### [1.4.1](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.4.0...v1.4.1) (2022-02-27)
 
 
