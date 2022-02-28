@@ -32,7 +32,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.PAT }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Create sync pull request
-        id: create-sync-pr
         uses: tretuna/sync-branches@1.4.0
         with:
           GITHUB_TOKEN: ${{ secrets.PAT }}
