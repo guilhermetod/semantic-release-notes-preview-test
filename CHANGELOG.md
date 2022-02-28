@@ -1,3 +1,10 @@
+### [1.10.1](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.10.0...v1.10.1) (2022-02-28)
+
+
+### Bug fixes
+
+* sync PR token ([43799d0](https://github.com/guilhermetod/semantic-release-notes-preview-test/commit/43799d0f48b7509980e476e39f0e405f7912189d))
+
 ## [1.10.0](https://github.com/guilhermetod/semantic-release-notes-preview-test/compare/v1.9.0...v1.10.0) (2022-02-28)
 
 
