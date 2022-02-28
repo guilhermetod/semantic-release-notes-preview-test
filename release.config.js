@@ -14,7 +14,7 @@ module.exports = {
     ['@semantic-release/release-notes-generator', { preset: 'conventionalcommits', presetConfig: { types } }],
     ['@semantic-release/changelog'],
     ['@semantic-release/npm', { npmPublish: false }],
-    ['@semantic-release/git'],
-    ['@semantic-release/github'],
+    ['@semantic-release/git', { message: 'chore(release): <%=nextRelease.version%> \n\n <%=nextRelease.notes%>' }],
+    '@semantic-release/github',
   ],
 };

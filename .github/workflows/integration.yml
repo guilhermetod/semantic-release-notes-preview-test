@@ -29,4 +29,19 @@ jobs:
             ---
             
             ${{ steps.build-release-notes.outputs.releaseNotes }}
-      
+
+  auto_review_and_merge:
+    if: github.head_ref == 'main' && github.base_ref == 'develop'
+    runs-on: ubuntu-latest
+    name: Auto review and merge
+    steps:
+      - name: Enable auto merge
+        uses: peter-evans/enable-pull-request-automerge@v1
+        with:
+          token: ${{ secrets.PAT }}
+          pull-request-number: ${{ github.event.number }}
+      - name: Auto approve pull request
+        uses: hmarr/auto-approve-action@v2
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          pull-request-number: ${{ github.event.number }}
